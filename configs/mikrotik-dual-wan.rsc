@@ -3,10 +3,13 @@
 /interface ethernet set [find default-name=ether2] name=WAN2
 /interface ethernet set [find default-name=ether3] name=Local_Network
 
+# This enables dhcp-client on WAN2 interface
 /ip dhcp-client add interface=WAN2 disabled=no
 
+# This sets static IP for WAN1 (ISP provided in most instances)
 /ip address add address=<PUBLIC_IP>/30 interface=WAN1
 
+# This sets the gateway for WAN1(Gateway address for IP blockl provided by ISP)
 /ip route add gateway=<PRIMARY_GATEWAY>
 
 ***Firewall NAT rules (scope to LAN)***
