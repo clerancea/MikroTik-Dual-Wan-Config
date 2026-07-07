@@ -21,10 +21,23 @@ Route Health Monitoring
 The design ensures continuous internet connectivity and efficient utilization of available bandwidth.
 
 
-**Repository Structure**
+## 📂 Repository Structure
 
-<img width="177" height="181" alt="image" src="https://github.com/user-attachments/assets/ba0f16e8-97eb-478d-bed6-df8305a59b66" />
-
+```text
+mikrotik-dual-wan-config/
+│
+├── README.md
+│
+├── docs/
+│   ├── architecture.md
+│   ├── network-overview.md
+│   ├── load-balancing.md
+│   ├── failover-testing.md
+│   ├── troubleshooting.md
+│   └── backup-restore.md
+│
+├── configs/
+   └── mikrotik-dual-wan.rsc
 
 
 **Key Features**
