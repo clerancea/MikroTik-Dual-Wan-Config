@@ -2,7 +2,7 @@
 Objective**
 Provide stable internet connectivity using two separate ISP circuits with load sharing and failover.
 
-**text
+```text
                      Internet
                         |
           -----------------------------
