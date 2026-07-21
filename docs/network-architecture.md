@@ -2,6 +2,20 @@
 Objective**
 Provide stable internet connectivity using two separate ISP circuits with load sharing and failover.
 
+**text
+                     Internet
+                        |
+          -----------------------------
+          |                           |
+       WAN1                       WAN2
+  102.208.20.206/30         192.168.100.8/24
+          |                           |
+          +----- MikroTik Router -----+
+                      |
+               Bridge/LAN
+             192.168.1.0/24
+                      |
+                User Devices
 
 **WAN Configuration
 WAN1**
