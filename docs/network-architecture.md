@@ -7,13 +7,11 @@ Provide stable internet connectivity using two separate ISP circuits with load s
                         |
           -----------------------------
           |                           |
-       WAN1                       WAN2
-  102.208.20.206/30         192.168.100.8/24
+        WAN1                          WAN2
           |                           |
           +----- MikroTik Router -----+
                       |
-               Bridge/LAN
-             192.168.1.0/24
+                 Bridge/LAN
                       |
                 User Devices
 
