@@ -29,12 +29,12 @@ mikrotik-dual-wan-config/
 ├── README.md
 │
 ├── docs/
-│   ├── architecture.md
-│   ├── network-overview.md
-│   ├── load-balancing.md
-│   ├── failover-testing.md
+│   ├── network-architecture.md
+│   ├── pcc-load-balancing.md
+│   ├── failover-design.md
+│   ├── dns-configuration.md
 │   ├── troubleshooting.md
-│   └── backup-restore.md
+│   └── backup-recovery.md
 │
 ├── configs/
    └── mikrotik-dual-wan.rsc
