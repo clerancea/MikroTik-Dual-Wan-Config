@@ -93,7 +93,7 @@ MikroTik-Dual-Wan-Config/
 │   ├── dns-configuration.md      — DNS handling across both WANs
 │   ├── troubleshooting.md        — common issues and diagnostic steps
 │   └── backup-recovery.md        — config backup and restore procedure
-└── configs/
+└── Config/
     └── mikrotik-dual-wan.rsc     — reference RouterOS script
 ```
 
