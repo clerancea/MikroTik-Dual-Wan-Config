@@ -1,5 +1,24 @@
 **PCC Configuration**
 
+```text
+New Connection
+      |
+      V
+PCC Classifier
+      |
+ -------------
+ |           |
+WAN1_conn  WAN2_conn
+ |           |
+ V           V
+to_WAN1   to_WAN2
+ |           |
+WAN1       WAN2
+
+
+
+
+
 WAN1 Connection Mark
 
 /ip firewall mangle add chain=prerouting action=mark-connection new-connection-mark=WAN1_conn passthrough=yes dst-address-type=!local connection-mark=no-mark in-interface=Local_Network per-connection-classifier=src-address:2/0
