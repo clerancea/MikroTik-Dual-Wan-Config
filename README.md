@@ -3,7 +3,7 @@
 ## Overview
 
 Overview
-This repository documents the MikroTik dual-WAN deployment used to provide internet redundancy, failover, and load balancing for the Project HOPE Ghana office network. The solution utilizes two ISP connections:
+This repository documents the MikroTik dual-WAN deployment used to provide internet redundancy, failover, and load balancing. The solution utilizes two ISP connections:
 
 WAN1 – Dedicated Public IP
 
