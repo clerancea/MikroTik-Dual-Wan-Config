@@ -21,7 +21,7 @@ A documented, reusable configuration framework for deploying dual-ISP redundancy
 
 ## Overview
 
-This repository documents a dual-WAN deployment built to provide internet redundancy, automatic failover, and load balancing for a multi-site NGO field office network in Ghana. The design uses two independent ISP connections:
+This repository documents a dual-WAN deployment built to provide internet redundancy, automatic failover, and load balancing for a multi-site setup. The design uses two independent ISP connections:
 
 | Link | Type | Role |
 |------|------|------|
