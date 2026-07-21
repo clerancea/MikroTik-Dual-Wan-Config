@@ -28,6 +28,23 @@ This repository documents a dual-WAN deployment built to provide internet redund
 | WAN1 | Dedicated public IP | Primary |
 | WAN2 | DHCP internet connection | Secondary / load-shared |
 
+'''
+
+New Connection
+      |
+      V
+PCC Classifier
+      |
+ -------------
+ |           |
+WAN1_conn  WAN2_conn
+ |           |
+ V           V
+to_WAN1   to_WAN2
+ |           |
+WAN1      WAN2
+
+
 It combines **Per Connection Classifier (PCC)** load balancing with **policy-based routing** and **recursive route health checks**, so the network keeps working through single-ISP outages without manual intervention.
 
 ## Architecture
@@ -106,19 +123,7 @@ MikroTik-Dual-Wan-Config/
 | [troubleshooting.md](docs/troubleshooting.md) | Diagnostic commands and common failure modes |
 | [backup-recovery.md](docs/backup-recovery.md) | Configuration backup and restore procedure |
 
-## Results
 
-*(Fill in with real figures before publishing — concrete numbers do more for this section than any other part of the repo.)*
-
-- Failover time observed in testing: `[ X seconds ]`
-- Uptime improvement since deployment: `[ before → after ]`
-- Bandwidth utilization improvement: `[ e.g. X% reduction in single-ISP congestion ]`
-
-## Roadmap
-
-- [ ] Add Mermaid-rendered architecture diagram
-- [ ] Add automated config-backup script (scheduled export + off-box storage)
-- [ ] Generalize as a GitHub template repository for future dual-WAN deployments
 
 ## License
 
